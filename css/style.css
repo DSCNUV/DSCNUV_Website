@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+
+:root {
+  --color-blue: #5185eb;
+  --color-red: #d95040;
+  --color-green: #45995f;
+  --color-yellow: #f1bd42;
+  --color-black: #404040;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  /* height: 100vh; */
+}
+
+.hero .logo {
+  text-align: center;
+  color: var(--color-black);
+}
+
+.hero .logo img {
+  width: 300px;
+}
+
+/* Sections */
+
+.section-header h1 {
+  color: var(--color-blue);
+}
