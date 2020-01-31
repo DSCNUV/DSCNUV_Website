@@ -6,14 +6,42 @@
   --color-green: #45995f;
   --color-yellow: #f1bd42;
   --color-black: #404040;
+  --color-red-light: #ffb7af;
+  --vision-box-shadow: 6px 6px 20px rgba(81, 133, 231, 0.5);
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
 
+.btn-primary {
+  background-color: var(--color-blue);
+}
+.btn-primary:hover {
+  background-color: #5f8ce4;
+}
+/* Sections */
+section {
+  padding: 3rem 0;
+}
+.section-header h1 {
+  color: var(--color-blue);
+  margin: 0;
+}
+.section-header p {
+  margin: 0;
+}
+
+.section-header img {
+  max-width: 100px;
+}
+
+/* Section - hero */
 .hero {
-  /* height: 100vh; */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero .logo {
@@ -25,8 +53,250 @@ body {
   width: 300px;
 }
 
-/* Sections */
+/* Section - about */
+.about .image {
+  position: relative;
+}
+.image .thumb {
+  position: relative;
+  display: block;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-image: url("../assets/images/asd.svg");
+  -webkit-mask-image: url("../assets/images/asd.svg");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-transform: rotate(1.8deg);
+  -ms-transform: rotate(1.8deg);
+  transform: rotate(1.8deg);
+}
+.image .thumb img {
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+.image:after {
+  content: "";
+  background-image: url("../assets/images/asd.svg");
+  position: absolute;
+  width: 90%;
+  background-size: cover;
+  height: 94%;
+  left: 5%;
+  background-position: 100% 100%;
+  z-index: -1;
+  top: 3%;
+  -webkit-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  border-radius: 10px;
+}
 
-.section-header h1 {
+/* SECTION - vision */
+.vision .card {
+  border: 3px solid transparent;
+  border-radius: 10px;
+  box-shadow: var(--vision-box-shadow);
+  -moz-box-shadow: var(--vision-box-shadow);
+  -webkit-box-shadow: var(--vision-box-shadow);
+  -khtml-box-shadow: var(--vision-box-shadow);
+}
+
+.vision .card:hover {
+  cursor: pointer;
+  border: 3px solid var(--color-blue);
+  transition: all ease-in-out 300ms;
+  box-shadow: none;
+}
+
+.vision .card .card-title {
+  margin: 0;
   color: var(--color-blue);
+  font-size: 30px;
+}
+
+.vision .card .card-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Section team */
+.team .card {
+  border: 3px solid var(--color-black);
+  transition: all ease-in-out 300ms;
+}
+.team .card:hover {
+  cursor: pointer;
+  border: 3px solid var(--color-blue);
+}
+
+.team .card .duration {
+  border-radius: 0 0 5px 0;
+  width: 30%;
+  height: 30px;
+  font-size: 14px;
+  background-color: var(--color-blue);
+  color: #fff;
+}
+
+.team .card .card-title {
+  margin: 0;
+  color: var(--color-blue);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.team .social i {
+  color: var(--color-black);
+  font-size: 20px;
+  transition: all ease-in-out 300ms;
+}
+.team .social i:hover {
+  color: var(--color-blue);
+  font-size: 20px;
+}
+
+/* SECTION - EVENTS */
+.destinations-list-slider-bg {
+  position: relative;
+}
+.destinations-list-slider-bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 35%;
+  height: 100%;
+  background: var(--color-blue);
+  z-index: -1;
+}
+.destinations-list-slider-bg .destinations-list-slider {
+  padding: 55px 0;
+}
+
+.destinations-slider-controls .slider-nav {
+  margin-bottom: 150px;
+}
+.destinations-slider-controls .slider-nav .slick-arrow {
+  border: 3px solid #ffffff4d;
+  display: block;
+  color: #ffffff;
+}
+.destinations-slider-controls .slider-nav .slick-arrow:hover,
+.destinations-slider-controls .slider-nav .slick-arrow:active,
+.destinations-slider-controls .slider-nav .slick-arrow:focus {
+  border: 3px solid #fff;
+  color: #fff;
+}
+.destinations-slider-controls .slider-nav .slick-prev {
+  margin-bottom: 30px;
+}
+.d-list-progress {
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff4d;
+  background-image: -webkit-linear-gradient(left, #fff, #fff);
+  background-image: -o-linear-gradient(left, #fff, #fff);
+  background-image: linear-gradient(to right, #fff, #fff);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 0.4s ease-in-out;
+  -o-transition: background-size 0.4s ease-in-out;
+  transition: background-size 0.4s ease-in-out;
+}
+
+.tp-slider-extra {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.tp-slider-extra .first {
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  height: 65px;
+  width: 65px;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.tp-slider-extra .devider {
+  font-size: 50px;
+  color: #ffffff;
+}
+.tp-slider-extra .last {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff59;
+}
+
+.tps-arrow-left-right .slick-prev {
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  margin-top: -30px;
+}
+
+.tps-arrow-left-right .slick-next {
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  margin-top: -30px;
+}
+
+.tps-arrow-center {
+  margin-bottom: 80px;
+}
+.tps-arrow-center .slick-prev {
+  position: absolute;
+  left: 50%;
+  bottom: -80px;
+  margin-left: -70px;
+}
+.tps-arrow-center .slick-next {
+  position: absolute;
+  right: 50%;
+  margin-right: -70px;
+  bottom: -80px;
+}
+
+.tp-control-nav .slick-arrow {
+  border: 3px solid #f8f8f8;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 35px;
+  line-height: 54px;
+  text-align: center;
+  cursor: pointer;
+  color: #f8f8f8;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@media (min-width: 1490px) and (max-width: 1550px) {
+  .tps-arrow-left-right .slick-prev {
+    left: -15px;
+    z-index: 9;
+    background: #fff;
+  }
+  .tps-arrow-left-right .slick-next {
+    right: -15px;
+    z-index: 9;
+    background: #fff;
+  }
+  .single-client-review {
+    margin-top: 5px;
+  }
 }

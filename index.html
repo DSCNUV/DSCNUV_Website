@@ -14,19 +14,179 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 
     <!-- Scripts -->
     <script src="https://kit.fontawesome.com/c4adcf1386.js"></script>
     <script src="js/jquery.min.js" defer></script>
+    <script src="js/slick.js" defer></script>
     <script src="js/bootstrap.bundle.min.js" defer></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
   </head>
   <body>
-    <header></header>
-    <section class="hero"></section>
-    <section class="events"></section>
-    <section class="about mt-5">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div style="max-width: 300px;">
+          <img src="assets/images/logo-full.png" alt="" class="img-fluid" />
+        </div>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">EVENTS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">ACHIVEMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section
+      class="hero d-flex align-items-center justify-content-center"
+      style="background-image: url('assets/images/hero-bg-2.png');"
+    >
+      <div class="logo">
+        <img src="assets/images/logo.png" alt="logo" class="img-fluid" />
+        <h1>Developer Student Clubs</h1>
+        <h3>Navrachana University</h3>
+        <div class="mt-4">
+          <a href="#" class="btn btn-lg btn-primary mr-3 px-5 py-2">Events</a>
+          <a href="#" class="btn btn-lg">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="events">
+        <div class="section-header text-center">
+            <p>GET IN TOUCH WITH</p>
+            <h1>Upcoming Events</h1>
+            <img src="assets/images/wave.png" />
+        </div>
+        <div class="section-body mt-5">
+        <div class="destinations-list-slider-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 offset-xl-1 order-lg-12">
+                        <div class="destinations-list-slider">
+                            <div class="d-list-slider-item">
+                                <div class="card text-center">
+                                    <div class="profile-pic bg-white px-5 pt-4">
+                                      <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                                    </div>
+                                    <div class="card-body text-center">
+                                      <p class="card-title">John Doe</p>
+                                      <p class="card-text">PRESIDENT</p>
+                                    </div>
+                                    <ul class="social list-inline text-center">
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="d-list-slider-item">
+                                <div class="card text-center">
+                                    <div class="profile-pic bg-white px-5 pt-4">
+                                      <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                                    </div>
+                                    <div class="card-body text-center">
+                                      <p class="card-title">John Doe</p>
+                                      <p class="card-text">PRESIDENT</p>
+                                    </div>
+                                    <ul class="social list-inline text-center">
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="d-list-slider-item">
+                                <div class="card text-center">
+                                    <div class="profile-pic bg-white px-5 pt-4">
+                                      <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                                    </div>
+                                    <div class="card-body text-center">
+                                      <p class="card-title">John Doe</p>
+                                      <p class="card-text">PRESIDENT</p>
+                                    </div>
+                                    <ul class="social list-inline text-center">
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="d-list-slider-item">
+                                <div class="card text-center">
+                                    <div class="profile-pic bg-white px-5 pt-4">
+                                      <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                                    </div>
+                                    <div class="card-body text-center">
+                                      <p class="card-title">John Doe</p>
+                                      <p class="card-text">PRESIDENT</p>
+                                    </div>
+                                    <ul class="social list-inline text-center">
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                                      <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 align-self-center order-lg-11">
+                        <div class="container">
+                            <h3 class="text-light">EVENTS / COMPETETIONS</h3>
+                            <img src="assets/images/wave_white.png" style="max-width: 120px;" class="img-fluid">
+                            <div class="destinations-slider-controls mt-3">
+                                <div class="slider-nav tp-control-nav"></div>
+                                <!--slider-nav-->
+                                <div class="tp-slider-extra slider-extra">
+                                    <div class="text">
+                                        <span class="first">01 </span>
+                                        <span class="last"></span>
+                                    </div>
+                                    <!--text-->
+                                    <div class="d-list-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                                        <span class="slider__label sr-only"></span>
+                                    </div>
+                                </div>
+                                <!--slider-extra-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="about">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -35,8 +195,6 @@
               <h1>Google's DSC?</h1>
               <img
                 src="assets/images/wave.png"
-                alt=""
-                style="max-width: 160px;"
               />
             </div>
             <div class="section-body mt-3">
@@ -54,15 +212,225 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 align-items-center">
-            <img src="assets/images/speaker1.jpg" alt="" class="img-fluid" />
+          <div class="col-md-6 align-self-center text-center mt-5 mt-md-0">
+            <div class="image">
+              <div class="thumb">
+                <img
+                  src="assets/images/speaker1.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="vision"></section>
+    <section class="vision">
+      <div class="section-header text-center">
+        <p>VISION OF</p>
+        <h1 class="m-0">DSC NUV</h1>
+        <img src="assets/images/wave.png" />
+      </div>
+      <div class="section-body container mt-5">
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 mb-3">
+            <div class="card text-center py-2">
+              <div class="profile-pic px-5 pt-4">
+                <img src="assets/images/2.svg" class="card-img-top img-fluid" />
+              </div>
+              <div class="card-body text-center">
+                <h1 class="card-title">Encourage</h1>
+                <p class=" card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesettingieuyieycecui industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-3">
+            <div class="card text-center py-2">
+              <div class="profile-pic px-5 pt-4">
+                <img src="assets/images/3.svg" class="card-img-top img-fluid" />
+              </div>
+              <div class="card-body text-center">
+                <h1 class="card-title">Help</h1>
+                <p class=" card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesettingieuyieycecui industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-3">
+            <div class="card text-center py-2">
+              <div class="profile-pic px-5 pt-4">
+                <img src="assets/images/1.svg" class="card-img-top img-fluid" />
+              </div>
+              <div class="card-body text-center">
+                <h1 class="card-title">Grow</h1>
+                <p class=" card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesettingieuyieycecui industry. Lorem Ipsum has been the
+                  industry's standard dummy text ever since the 1500s.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="showcase"></section>
-    <section class="team"></section>
+    <section class="team">
+        <div class="section-header text-center">
+          <p class="m-0">DSC-NUV'S</p>
+          <h1 class="m-0">Team</h1>
+          <img src="assets/images/wave.png">
+        </div>
+        <div class="section-body container mt-5">
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="card text-center">
+                <div class="profile-pic bg-white px-5 pt-4">
+                  <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-title">John Doe</p>
+                  <p class="card-text">PRESIDENT</p>
+                </div>
+                <ul class="social list-inline text-center">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card text-center">
+                <div class="profile-pic bg-white px-5 pt-4">
+                  <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-title">John Doe</p>
+                  <p class="card-text">PRESIDENT</p>
+                </div>
+                <ul class="social list-inline text-center">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card text-center">
+                <div class="profile-pic bg-white px-5 pt-4">
+                  <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-title">John Doe</p>
+                  <p class="card-text">PRESIDENT</p>
+                </div>
+                <ul class="social list-inline text-center">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card text-center">
+                <div class="profile-pic bg-white px-5 pt-4">
+                  <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-title">John Doe</p>
+                  <p class="card-text">PRESIDENT</p>
+                </div>
+                <ul class="social list-inline text-center">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card text-center">
+                <div class="profile-pic bg-white px-5 pt-4">
+                  <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-title">John Doe</p>
+                  <p class="card-text">PRESIDENT</p>
+                </div>
+                <ul class="social list-inline text-center">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card text-center">
+                <div class="profile-pic bg-white px-5 pt-4">
+                  <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-title">John Doe</p>
+                  <p class="card-text">PRESIDENT</p>
+                </div>
+                <ul class="social list-inline text-center">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card text-center">
+                <div class="profile-pic bg-white px-5 pt-4">
+                  <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-title">John Doe</p>
+                  <p class="card-text">PRESIDENT</p>
+                </div>
+                <ul class="social list-inline text-center">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card text-center">
+                <div class="profile-pic bg-white px-5 pt-4">
+                  <img src="assets/images/card.jpg" class="card-img-top rounded-circle">
+                </div>
+                <div class="card-body text-center">
+                  <p class="card-title">John Doe</p>
+                  <p class="card-text">PRESIDENT</p>
+                </div>
+                <ul class="social list-inline text-center">
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i> </a></li>
+                  <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </div>
+      </section>
+      
     <section class="developers"></section>
     <footer></footer>
   </body>
