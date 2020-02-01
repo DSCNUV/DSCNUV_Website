@@ -116,10 +116,12 @@ $.getJSON("data/teams.json", (data, status) => {
   // Presentation
   const teamsContainer = $(".teams .section-body");
   let htmlteams = "";
-  Object.keys(teams).forEach(year => {
-    const team = teams[year];
-    htmlteams += buildTeam(year, team);
-  });
+  Object.keys(teams)
+    .sort((a, b) => parseInt(b) - parseInt(a))
+    .forEach(year => {
+      const team = teams[year];
+      htmlteams += buildTeam(year, team);
+    });
   teamsContainer.html(htmlteams);
   $.holdReady(false);
 });
