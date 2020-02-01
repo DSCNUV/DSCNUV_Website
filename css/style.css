@@ -10,7 +10,7 @@
   --color-black: #404040;
   --color-red-light: #ffb7af;
   --vision-box-shadow: 6px 6px 20px rgba(81, 133, 231, 0.5);
-  --events-box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.16);
+  --events-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
 }
 
 body {
@@ -478,7 +478,7 @@ section {
   margin: 0 20px;
 }
 .teams .team {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 /* Section Team - developer */
