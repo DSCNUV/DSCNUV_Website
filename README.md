@@ -1,6 +1,7 @@
-# [Developer Student Clubs - Navrachana University webiste](https://pruthvi145.github.io/dsc-webiste/)
+# Developer Student Clubs - Navrachana University webiste
 
 This Website is made for the **Hack the web** competition held in [Navrachna Unviersity](https://nuv.ac.in), Vadodara.
+> [Demo](https://pruthvi145.github.io/dsc-webiste/)
 
 > [Static website Branch](https://github.com/pruthvi145/dsc-webiste/tree/static)
 ## Developers:
