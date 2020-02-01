@@ -19,12 +19,12 @@
 
 .slick-list {
   position: relative;
-
   display: block;
   overflow: hidden;
+  /* overflow-y: visible; */
 
   margin: 0;
-  padding: 0;
+  padding: 50px 0;
 }
 .slick-list:focus {
   outline: none;

@@ -1,15 +1,3 @@
-@media only screen and (min-width: 1800px){
-    .container-bg {
-    	max-width: 1750px;
-    	margin: 0 auto;
-    }
-}
-@media only screen and (min-width: 1600px){
-    .nav-style-02 .dropdown-menu-btn {
-        margin-left: 160px;
-    }
-}
-
 @media only screen and (max-width: 1680px){
     .banner-slider .banner-slider-item .banner-inner .banner-cat {
         font-size: 16px;
@@ -85,159 +73,8 @@
 
 /* Medium Layout: 1550px. */
 @media only screen and (max-width: 1550px){
-    .navbar-area .nav-container .desktop-logo img {
-        max-width: 115px;
-    }
-    .sidebar-area-4 {
-        margin-left: 60px;
-    }
-    .btn-read-more span i {
-        font-size: 20px;
-    }
-    .section-title .title {
-        font-size: 46px;
-    }
-    .tp-slider-extra .first {
-        font-size: 36px;
-        font-weight: 500;
-        height: 40px;
-        width: 50px;
-    }
-    .tp-slider-extra .devider {
-        font-size: 28px;
-    }
-    .tp-slider-extra .last {
-        font-size: 18px;
-    }
-    .tp-price-meta h2 {
-        font-size: 30px;
-        font-weight: 500;
-    }
-    .banner-slider .banner-slider-item .tp-price-meta h2 {
-        font-size: 30px;
-    }
-    .banner-slider .banner-slider-item .tp-price-meta h2 small,
-    .tp-price-meta h2 span {
-        font-size: 15px !important;
-        right: -11px;
-    }
-    .tp-price-meta h2 small {
-        font-size: 15px !important;
-        right: -11px;
-    }
-    .tp-price-meta .p {
-        font-size: 13px;
-    }
-    .tp-price-meta del {
-        font-size: 18px;
-    }
-    .tp-price-meta del span {
-        font-size: 12px !important;
-    }
-    .video-popup-btn {
-        border: 1px solid var(--main-color-one);
-        padding: 5px;
-        margin-top: -33px;
-        margin-left: -30px;
-    }
-    .video-popup-btn .video-play-btn {
-        height: 50px;
-        width: 50px;
-        font-size: 16px;
-        line-height: 52px;
-        padding-left: 2px;
-    }
-    .tp-control-nav .slick-arrow {
-        border-width: 2px !important;
-        height: 48px;
-        width: 48px;
-        font-size: 24px;
-        line-height: 48px;
-    }
-    .tp-list-meta li {
-        margin: 0 10px;
-        font-size: 14px;
-    }
-    .tp-pagination ul li .page-numbers {
-        width: 42px;
-        height: 42px;
-        line-height: 40px;
-        margin: 0 5px;
-    }
-    .tp-pagination ul li .page-numbers.prev, .tp-pagination ul li .page-numbers.next {
-        line-height: 43px;
-    }
-    .tp-pagination ul li .page-numbers.prev i, 
-    .tp-pagination ul li .page-numbers.next i {
-        line-height: 40px;
-        font-size: 24px;
-    }
-    .login-form-wrap {
-        margin: 20px 30px 20px 58px;
-    }
-    .single-input-wrap.style-two input {
-        height: 45px;
-    }
-    .login-form-wrap .single-input-wrap .single-input-title {
-        top: 5px;
-        line-height: 35px;
-    }
-    .newslatter-area-wrap {
-        padding: 67px 0 70px 0;
-    }
-
-
-
-    /****** home 1 responsive ******/
-    .navbar-area .nav-container .desktop-logo {
-        margin-right: 100px;
-    }
-    .navbar-area .nav-container .navbar-collapse .navbar-nav li {
-        margin: 0 14px;
-    }
-    .navbar-area-fixed .nav-container .nav-right-content ul li .btn {
-        line-height: 47px;
-    }
-    .banner-slider .banner-slider-item .banner-inner .banner-title {
-        font-size: 110px;
-        line-height: 125px;
-    }
-    .banner-slider:hover .slick-prev {
-        left: 25px;
-    }
-    .banner-slider:hover .slick-next {
-        right: 25px;
-    }
-    .banner-social-meta {
-        right: -30px;
-    }
-    .tp-lang-wrap .single-select {
-        font-size: 14px;
-    }
-    .tp-lang-wrap .single-select:after {
-        margin-right: -2px;
-        font-size: 14px;
-    }
-    .navbar-area .nav-container .nav-right-content ul li {
-        font-size: 14px;
-    }
-    .tp-search-single-wrap .nice-select .current {
-        font-size: 14px;
-    }
-    .tp-search-single-wrap .nice-select .list li {
-        font-weight: 400 !important;
-    }
-    .single-intro {
-        padding: 0 0;
-        margin-bottom: 35px;
-    }
-    .single-intro.style-two {
-        margin-bottom: 30px;
-    }
-    .single-intro .intro-title .intro-count {
-        font-size: 50px;
-    }
-    .destinations-slider-controls .slider-nav .slick-prev {
+    
+    .events-slider-controls .slider-nav .slick-prev {
         margin-bottom: 12px;
     }
     .single-destinations-list .thumb .d-list-tag {
@@ -793,8 +630,8 @@
         padding: 0 12px;
     }
     .btn {
-        height: 48px;
-        line-height: 48px;
+        /* height: 48px; */
+        /* line-height: 48px; */
     }
     .banner-slider .banner-slider-item {
         height: auto;
@@ -1074,28 +911,28 @@
     .single-intro .intro-title .intro-count {
         font-size: 40px;
     }
-    .destinations-list-slider-bg .destinations-list-slider {
+    .events-slider-bg .events-slider {
         padding: 55px 0 30px 0;
     }
-    .destinations-list-slider-bg:after {
+    .events-slider-bg:after {
         width: 100%;
     }
-    .destinations-slider-controls {
+    .events-slider-controls {
         margin-bottom: 55px;
     }
-    .destinations-slider-controls .slider-nav {
+    .events-slider-controls .slider-nav {
         margin-bottom: 0;
     }
-    .destinations-slider-controls .slider-nav .slick-arrow {
+    .events-slider-controls .slider-nav .slick-arrow {
         display: inline-block;
         margin-bottom: 0;
         margin-right: 20px;
     }
-    .destinations-slider-controls .slider-nav {
+    .events-slider-controls .slider-nav {
         display: inline-block;
         float: left;
     }
-    .destinations-slider-controls .tp-slider-extra {
+    .events-slider-controls .tp-slider-extra {
         display: inline-block;
         margin-left: 20px;
     }
