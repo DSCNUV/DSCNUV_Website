@@ -1,0 +1,507 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+
+:root {
+  --color-blue: #5185eb;
+  --color-red: #d95040;
+  --color-green: #45995f;
+  --color-yellow: #f1bd42;
+  --color-black: #404040;
+  --color-red-light: #ffb7af;
+  --vision-box-shadow: 6px 6px 20px rgba(81, 133, 231, 0.5);
+  --events-box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.16);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* RBOOT */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+/* Bootstrap overload */
+.btn-primary {
+  /* border: none; */
+  background-color: var(--color-blue);
+}
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  border-color: var(--color-blue);
+  background-color: var(--color-blue);
+}
+
+/* Header */
+.navbar-light .navbar-nav .active > .nav-link {
+  color: var(--color-blue);
+  /* font-weight: 500; */
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  transition: all ease-in-out 200ms;
+  -webkit-transition: all ease-in-out 200ms;
+  -moz-transition: all ease-in-out 200ms;
+  -ms-transition: all ease-in-out 200ms;
+  -o-transition: all ease-in-out 200ms;
+}
+.navbar-light .navbar-nav .nav-item:hover .nav-link {
+  color: var(--color-blue);
+}
+
+/* Sections Global Styles */
+section {
+  padding: 3rem 0;
+}
+.section-header h1 {
+  color: var(--color-blue);
+  margin: 0;
+}
+.section-header p {
+  margin: 0;
+}
+
+.section-header img {
+  max-width: 100px;
+}
+
+/* Section - hero */
+.hero {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .logo {
+  text-align: center;
+  color: var(--color-black);
+}
+
+.hero .logo img {
+  width: 300px;
+}
+
+/* Section - Events */
+
+.events-slider-bg {
+  position: relative;
+}
+.events-slider-bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 35%;
+  height: 100%;
+  background: var(--color-blue);
+  z-index: -1;
+}
+.events-slider-bg .events-slider {
+  padding: 40px 0;
+}
+
+.events-slider-controls .slider-nav {
+  margin-bottom: 150px;
+}
+.events-slider-controls .slider-nav .slick-arrow {
+  border: 3px solid #ffffff4d;
+  display: block;
+  color: #ffffff;
+}
+.events-slider-controls .slider-nav .slick-arrow:hover,
+.events-slider-controls .slider-nav .slick-arrow:active,
+.events-slider-controls .slider-nav .slick-arrow:focus {
+  border: 3px solid #fff;
+  color: #fff;
+}
+.events-slider-controls .slider-nav .slick-prev {
+  margin-bottom: 30px;
+}
+.e-list-progress {
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff4d;
+  background-image: -o-linear-gradient(left, #fff, #fff);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fff),
+    to(#fff)
+  );
+  background-image: linear-gradient(to right, #fff, #fff);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 0.4s ease-in-out;
+  -o-transition: background-size 0.4s ease-in-out;
+  transition: background-size 0.4s ease-in-out;
+}
+
+.tp-slider-extra {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.tp-slider-extra .first {
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  height: 65px;
+  width: 65px;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+.tp-slider-extra .devider {
+  font-size: 50px;
+  color: #ffffff;
+}
+.tp-slider-extra .last {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff59;
+}
+
+.tps-arrow-left-right .slick-prev {
+  position: absolute;
+  left: -60px;
+  top: 50%;
+  margin-top: -30px;
+}
+
+.tps-arrow-left-right .slick-next {
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  margin-top: -30px;
+}
+
+.tps-arrow-center {
+  margin-bottom: 80px;
+}
+.tps-arrow-center .slick-prev {
+  position: absolute;
+  left: 50%;
+  bottom: -80px;
+  margin-left: -70px;
+}
+.tps-arrow-center .slick-next {
+  position: absolute;
+  right: 50%;
+  margin-right: -70px;
+  bottom: -80px;
+}
+
+.tp-control-nav .slick-arrow {
+  border: 3px solid #f8f8f8;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 35px;
+  line-height: 54px;
+  text-align: center;
+  cursor: pointer;
+  color: #f8f8f8;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.events .events-slider-item {
+  position: relative;
+  margin: 0 0.5rem;
+  box-shadow: var(--events-box-shadow);
+  -moz-box-shadow: var(--events-box-shadow);
+  -webkit-box-shadow: var(--events-box-shadow);
+  -khtml-box-shadow: var(--events-box-shadow);
+}
+.events .card {
+  position: relative;
+
+  border: none;
+}
+.events .card .card-text {
+  font-size: 14px;
+}
+
+.events .card .event-info i {
+  margin-right: 5px;
+}
+.events .card .event-info {
+  color: var(--color-red);
+  font-size: 14px;
+}
+
+/* Section - about */
+
+.about .image {
+  position: relative;
+}
+.about .image .thumb {
+  position: relative;
+  display: block;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-image: url("../assets/images/about/about-bg.svg");
+  -webkit-mask-image: url("../assets/images/about/about-bg.svg");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-transform: rotate(1.8deg);
+  -ms-transform: rotate(1.8deg);
+  transform: rotate(1.8deg);
+}
+.about .image .thumb img {
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+.about .image:after {
+  content: "";
+  background-image: url("../assets/images/about/about-bg.svg");
+  position: absolute;
+  width: 90%;
+  background-size: cover;
+  height: 94%;
+  left: 5%;
+  background-position: 100% 100%;
+  z-index: -1;
+  top: 3%;
+  -webkit-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  border-radius: 10px;
+}
+
+/* SECTION - vision */
+.vision {
+  text-align: center;
+}
+
+.vision .card {
+  padding-bottom: 50px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  box-shadow: var(--vision-box-shadow);
+  -moz-box-shadow: var(--vision-box-shadow);
+  -webkit-box-shadow: var(--vision-box-shadow);
+  -khtml-box-shadow: var(--vision-box-shadow);
+}
+
+.vision .card:hover {
+  cursor: pointer;
+  border: 3px solid var(--color-blue);
+  -webkit-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.vision .card .card-title {
+  color: var(--color-blue);
+  font-size: 30px;
+}
+
+.vision .card .card-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* Section - Hall of Fame/showcase */
+.showcase img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.hall-of-fame-slider .slick-prev,
+.team-slider .slick-prev {
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.hall-of-fame-slider .slick-next,
+.team-slider .slick-next {
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.hall-of-fame-slider .slick-arrow,
+.team-slider .slick-arrow {
+  cursor: pointer;
+  z-index: 100;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid #cfd3de;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #cfd3de;
+  font-size: 30px;
+  position: absolute;
+}
+
+.hall-of-fame-slider .image {
+  position: relative;
+}
+
+.hall-of-fame-slider .slider-item {
+  margin: 0 20px;
+}
+
+.hall-of-fame-slider .overlay-content {
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(14, 14, 14, 0.8);
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  bottom: -10%;
+  border-radius: 10px;
+  -webkit-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.hall-of-fame-slider .image:hover {
+  cursor: pointer;
+}
+.hall-of-fame-slider .image:hover .overlay-content {
+  opacity: 1;
+  bottom: 0;
+}
+.hall-of-fame-slider .image:hover img {
+  -webkit-transition: all 200ms;
+  -o-transition: all 200ms;
+  transition: all 200ms;
+}
+.hall-of-fame-slider .image:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.hall-of-fame-slider .title {
+  color: var(--color-blue);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hall-of-fame-slider .overlay-content h3 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+/* Section team */
+.team .card {
+  border: 3px solid var(--color-black);
+  -webkit-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+.team .card:hover {
+  cursor: pointer;
+  border: 3px solid var(--color-blue);
+}
+
+.team .card .duration {
+  border-radius: 0 0 5px 0;
+  width: 30%;
+  height: 30px;
+  font-size: 14px;
+  background-color: var(--color-blue);
+  color: #fff;
+}
+
+.team .card .card-title {
+  margin: 0;
+  color: var(--color-blue);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.team .social i {
+  color: var(--color-black);
+  font-size: 20px;
+  -webkit-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+.team .social i:hover {
+  color: var(--color-blue);
+  font-size: 20px;
+}
+
+.team .team-slider .slick-arrow {
+  border-color: var(--color-blue);
+  color: var(--color-blue);
+}
+
+.team-slider .slick-prev {
+  left: -40px;
+}
+.team-slider .slick-next {
+  right: -40px;
+}
+.team-slider .slider-item {
+  margin: 0 20px;
+}
+.teams .team {
+  margin-bottom: 80px;
+}
+
+/* Section Team - developer */
+
+.team.developer .card-text {
+  font-weight: 500;
+}
+
+/* Footer */
+
+footer {
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.705);
+  background-color: var(--color-blue);
+  font-weight: 300;
+}
+
+footer span {
+  font-weight: 500;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+footer span:hover {
+  color: #fff;
+}
