@@ -4,9 +4,10 @@
 
 // Data
 
+$.holdReady(true);
 $.getJSON("data/events.json", (data, status) => {
   let events = data;
-  $.holdReady(true);
+
   // Presentation
   const eventsContainer = $(".events-slider");
   let htmlEvents = "";
@@ -61,9 +62,9 @@ function buildEvent(event) {
 
 // Data
 
+$.holdReady(true);
 $.getJSON("data/achievements.json", (data, status) => {
   let achievements = data;
-  $.holdReady(true);
   // Presentation
   const achievementsContainer = $(".hall-of-fame-slider");
   let htmlAchievements = "";
@@ -110,9 +111,9 @@ function buildAchievement(achievement) {
 
 // Data
 
+$.holdReady(true);
 $.getJSON("data/teams.json", (data, status) => {
   let teams = data;
-  $.holdReady(true);
   // Presentation
   const teamsContainer = $(".teams .section-body");
   let htmlteams = "";
