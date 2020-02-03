@@ -34,6 +34,8 @@ This Website is made for the **Hack the web** competition held in [Navrachna Unv
 * [x] Footer with basic copywrite information.
 
 ## Key Features:
+* [x] **optimized** - According to google's page speed insight tool, the website scored **76** which is above the average in a short time developement.
+    * ![Page Insight score](/screenshots/google_page_speed_insight_score.PNG)
 
 * [x] **Dynamic** - The feature that may differentiates this website from other websites is that the Events section, Hall of Fame section and the DSC NUV Team section of this website is totally dynamic. This will make it very easy to update the main contents of the website in the future.
 * [x] **Responsive UI** - We developed the website for 4 diifrent devices, so no compromize in User Experience. 
