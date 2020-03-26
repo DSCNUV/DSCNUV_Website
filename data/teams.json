@@ -1,121 +1,76 @@
 {
   "2019": [
     {
-      "name": "Pruthvi Patel",
-      "role": "President",
+      "name": "Perin Shah",
+      "role": "DSC Lead",
       "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
+        "instagram": "https://www.instagram.com/freeformelm",
+        "facebook": "https://www.facebook.com/shahperin",
+        "linkedin": "https://www.linkedin.com/in/perin-shah-63b5a4167/",
+        "github": "https://www.github.com/freeformelm"
       },
       "description": "",
       "profilePic": ""
     },
     {
-      "name": "Pruthvi Patel 2",
-      "role": "President",
+      "name": "Dhvanan Kotecha",
+      "role": "Co-Organizer",
       "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
+        "instagram": "https://www.instagram.com/d_kots111",
+        "facebook": "https://www.facebook.com/dkots0105",
+        "linkedin": "https://www.linkedin.com/in/dkots111/",
+        "github": "https://www.github.com/dkots111"
       },
       "description": "",
       "profilePic": ""
     },
     {
-      "name": "Pruthvi Patel 3",
-      "role": "President",
+      "name": "Nitav Shah",
+      "role": "Web Development",
       "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
+        "instagram": "https://www.instagram.com/fakenitav",
+        "facebook": "https://www.facebook.com/nitav.shah.7",
+        "linkedin": "https://www.linkedin.com/in/nitavshah",
+        "github": "https://www.github.com/shahnitav"
       },
       "description": "",
       "profilePic": ""
     },
     {
-      "name": "Pruthvi Patel 4",
-      "role": "President",
+      "name": "Nimit Savant",
+      "role": "Designing & Social Media",
       "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
+        "instagram": "https://www.instagram.com/nimit_savant",
+        "facebook": "#",
+        "linkedin": "https://www.linkedin.com/in/nimit-savant-95b7571a0/",
+        "github": "https://www.github.com/Nimit1428"
       },
       "description": "",
       "profilePic": ""
     },
     {
-      "name": "Pruthvi Patel 5",
-      "role": "President",
+      "name": "Sutiksh Verma",
+      "role": "Machine Learning",
       "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
+        "instagram": "https://www.instagram.com/its_sutiksh",
+        "facebook": "https://www.facebook.com/sutiksh.verma.7",
+        "linkedin": "https://www.linkedin.com/in/sutikshverma27/",
+        "github": "https://www.github.com/Sutiksh"
       },
       "description": "",
       "profilePic": ""
-    }
-  ],
-  "2020": [
-    {
-      "name": "Pruthvi Patel",
-      "role": "President",
-      "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
-      },
-      "description": ""
     },
     {
-      "name": "Pruthvi Patel 2",
-      "role": "President",
+      "name": "Shivam Vyas",
+      "role": "Outreach Manager",
       "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
+        "instagram": "https://www.instagram.com/shivam_vyas__",
+        "facebook": "https://www.facebook.com/shivamvyas.198",
+        "linkedin": "https://www.linkedin.com/in/shivam-vyas-36a517165/",
+        "github": "https://www.github.com/svyas5589"
       },
-      "description": ""
-    },
-    {
-      "name": "Pruthvi Patel 3",
-      "role": "President",
-      "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
-      },
-      "description": ""
-    },
-    {
-      "name": "Pruthvi Patel 4",
-      "role": "President",
-      "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
-      },
-      "description": ""
-    },
-    {
-      "name": "Pruthvi Patel 5",
-      "role": "President",
-      "social_links": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.instagram.com/",
-        "linkedin": "https://www.instagram.com/",
-        "github": "https://www.instagram.com/"
-      },
-      "description": ""
+      "description": "",
+      "profilePic": ""
     }
   ]
 }

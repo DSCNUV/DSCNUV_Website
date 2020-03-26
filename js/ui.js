@@ -146,7 +146,7 @@ function buildTeamMember(memeber) {
   let name = memeber && memeber.name ? memeber.name : "Add memeber Name";
   let description = memeber && memeber.description ? memeber.description : "";
   let role = memeber && memeber.role ? memeber.role : "PRESIDENT";
-  let social = memeber && memeber.social ? memeber.social : [];
+  let social = memeber && memeber.social_links ? memeber.social_links : [];
   let profilePic =
     memeber && memeber.profilePic
       ? memeber.profilePic
