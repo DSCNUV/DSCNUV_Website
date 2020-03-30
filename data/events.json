@@ -1,50 +1,56 @@
 [
   {
-    "title": "Flutter Interaction",
-    "image_url": "assets/images/events/e1.png",
+    "title": "Hack The Web",
+    "image_url": "assets/images/events/htw_1.jpg",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
-    "date": "8 March",
-    "location": "",
-    "form_link": "#"
+    "date": "4 February 2020",
+    "location": "Navrachana University",
+    "form_link": "#",
+    "btnText": "Register Now"
   },
   {
-    "title": "Pruthvi Patel",
-    "image_url": "assets/images/events/e1.png",
+    "title": "Machine Learning Study Jam",
+    "image_url": "assets/images/events/mlsj_1.jpg",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
-    "date": "8 March",
-    "location": "",
-    "form_link": "#"
+    "date": "22 December 2018",
+    "location": "Navrachana University",
+    "form_link": "#",
+    "btnText": ""
   },
   {
-    "title": "Harshil Walia",
-    "image_url": "assets/images/events/e1.png",
+    "title": "GCP Crash Course",
+    "image_url": "assets/images/events/gcp_1.jpg",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
-    "date": "8 March",
-    "location": "",
-    "form_link": "#"
+    "date": "29 October 2019",
+    "location": "Navrachana University",
+    "form_link": "#",
+    "btnText": ""
   },
   {
-    "title": "Hack the web",
-    "image_url": "assets/images/events/e1.png",
+    "title": "Explore Machine Learning",
+    "image_url": "assets/images/events/ml_1.jpg",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
-    "date": "8 March",
-    "location": "",
-    "form_link": "#"
+    "date": "18 November 2019",
+    "location": "Navrachana University",
+    "form_link": "#",
+    "btnText": ""
   },
   {
-    "title": "hack the nasa",
-    "image_url": "assets/images/events/e1.png",
+    "title": "No Light",
+    "image_url": "assets/images/events/nl_1.jpg",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
-    "date": "8 March",
-    "location": "",
-    "form_link": "#"
+    "date": "19 September 2019",
+    "location": "Navrachana University",
+    "form_link": "#",
+    "btnText": ""
   },
   {
-    "title": "ABCD",
-    "image_url": "assets/images/events/e1.png",
+    "title": "MLH Local Host Python Programming",
+    "image_url": "assets/images/events/dl_1.jpg",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
-    "date": "8 March",
-    "location": "",
-    "form_link": "#"
+    "date": "20 December 2019",
+    "location": "Navrachana University",
+    "form_link": "#",
+    "btnText": ""
   }
 ]

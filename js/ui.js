@@ -24,11 +24,11 @@ function buildEvent(event) {
   let date = event && event.date ? event.date : "date";
   let location =
     event && event.location ? event.location : "Navrachna University";
-  let btnText = event && event.btnText ? event.btnText : "Register Now";
-  let btnLink = event && event.btnLink ? event.btnLin : "#";
+  let btnText = event && event.btnText ? event.btnText : "";
+  let btnLink = event && event.form_link ? event.form_link : "#";
   let imageUrl =
-    event && event.imageUrl ? event.imageUrl : "assets/images/events/e1.png";
-
+    event && event.image_url ? event.image_url : "assets/images/events/e1.png";
+  
   return `
 <div class="events-slider-item">
   <div class="card">
@@ -48,9 +48,7 @@ function buildEvent(event) {
           <i class="fas fa-map-marker-alt"></i>${location}
         </li>
       </ul>
-
       <a href="${btnLink}" class="btn btn-primary">${btnText}</a>
-      <!-- <a href="#" class="btn">Learn More</a> -->
     </div>
   </div>
 </div>
@@ -145,7 +143,7 @@ function buildTeam(year, team) {
 function buildTeamMember(memeber) {
   let name = memeber && memeber.name ? memeber.name : "Add memeber Name";
   let description = memeber && memeber.description ? memeber.description : "";
-  let role = memeber && memeber.role ? memeber.role : "PRESIDENT";
+  let role = memeber && memeber.role ? memeber.role : "";
   let social = memeber && memeber.social_links ? memeber.social_links : [];
   let profilePic =
     memeber && memeber.profilePic
@@ -164,7 +162,7 @@ function buildTeamMember(memeber) {
                 <div class="card-body text-center">
                   <p class="card-title">${name}</p>
                   <p class="card-text">${role}</p>
-                  <p>${description}</p>
+                  <p class="card-description">${description}</p>
                 </div>
                 <ul class="social list-inline text-center">
                   <li class="list-inline-item">

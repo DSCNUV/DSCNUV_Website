@@ -444,12 +444,21 @@ section {
   color: #fff;
 }
 
+.team .card .card-text {
+  color: var(--color-red);
+}
+
 .team .card .card-title {
   margin: 0;
   color: var(--color-blue);
   font-size: 25px;
   font-weight: 500;
 }
+
+.team .card .card-description {
+  font-style: italic;
+}
+
 
 .team .social i {
   color: var(--color-black);
@@ -479,12 +488,6 @@ section {
 }
 .teams .team {
   margin-bottom: 50px;
-}
-
-/* Section Team - developer */
-
-.team.developer .card-text {
-  font-weight: 500;
 }
 
 /* Footer */
