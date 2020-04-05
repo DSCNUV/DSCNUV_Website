@@ -971,8 +971,21 @@
     .client-review-area-home.pd-top-70 {
         padding-top: 83px;
     }
-
-
+    .hero {
+        background-size: 120%;
+    }
+    .hero .logo {
+        padding-top: 25vmax;
+    }
+    .hero .logo img {
+        width: 200px;
+    }
+    .hero .logo h1 {
+        font-size: 1.6rem;
+    }
+    .hero .logo h3 {
+        font-size: 1.3rem;
+    }
 
     /******** home 2 responsive ********/
     .video-banner-area .video-banner-content-wrap .video-banner-content h2 {
@@ -1802,6 +1815,21 @@
     }
     .newslatter-area-blog.pd-top-108 {
         padding-top: 120px;
+    }
+    .hero {
+        background-size: 120%;
+    }
+    .hero .logo {
+        padding-top: 25vmax;
+    }
+    .hero .logo img {
+        width: 200px;
+    }
+    .hero .logo h1 {
+        font-size: 1.6rem;
+    }
+    .hero .logo h3 {
+        font-size: 1.3rem;
     }
     
     
