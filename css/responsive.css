@@ -1462,7 +1462,18 @@
         padding: 0 15px;
     }
 
+    /* User Changes */
+    .hall-of-fame-image {
+        height: 250px;
+    }
 
+    .hall-of-fame-slider .overlay-content h3 {
+        font-size: 0.8rem;
+      }
+
+    .hall-of-fame-slider .overlay-content p {
+        font-size: 0.8rem;
+      }
 }
 
 @media only screen and (max-width: 600px) {

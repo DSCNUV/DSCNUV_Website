@@ -1,12 +1,21 @@
 [
   {
+    "title": "Code Loops",
+    "image_url": "assets/images/events/codeloops_1.jpeg",
+    "description": "Coding Blocks, Vadodara is organizing “CODE LOOPS”, a competitive coding contest in collaboration with MozGuj, DSC NUV, MSP and Xplora Club ITM.",
+    "date": "26 April 2020",
+    "location": "Online",
+    "form_link": "https://bit.ly/3bbMAbi",
+    "btnText": "Register Now"
+  },
+  {
     "title": "Hack The Web",
     "image_url": "assets/images/events/htw_1.jpg",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
+    "description": "DSC NUV powered by Google and Microsoft Student Partner Program invites you to an exclusive meethub – Hack the Web. Hardik Mistry – Founder @ APPMATIC and a MICROSOFT MVP will be joining us to share his wisdom and industrial experience. He will also act as the judge of the Hack the Web - a website development competition.",
     "date": "4 February 2020",
     "location": "Navrachana University",
     "form_link": "#",
-    "btnText": "Register Now"
+    "btnText": ""
   },
   {
     "title": "Machine Learning Study Jam",
@@ -36,6 +45,15 @@
     "btnText": ""
   },
   {
+    "title": "Flutter IO Extended",
+    "image_url": "assets/images/events/flutterio_1.jpg",
+    "description": "A viewing party wherein the Flutter IO Event was streamed for the students. A small session on how to integrate Agora with Flutter followed the stream.",
+    "date": "18 December 2019",
+    "location": "Navrachana University",
+    "form_link": "#",
+    "btnText": ""
+  },
+  {
     "title": "No Light",
     "image_url": "assets/images/events/nl_1.jpg",
     "description": "It was a session on HTML and CSS where students were taught some basics and there was a Coding competition done where students had to make the same webpage as shown in the template without surfing the net or previewing the code on browser",
@@ -47,7 +65,7 @@
   {
     "title": "MLH Local Host Python Programming",
     "image_url": "assets/images/events/dl_1.jpg",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
+    "description": "A session on basic fundamentals and Python was taken for Students, where they were taught Python and how it can be used for AI.",
     "date": "20 December 2019",
     "location": "Navrachana University",
     "form_link": "#",

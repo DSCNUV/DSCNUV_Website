@@ -24,36 +24,65 @@ function buildEvent(event) {
   let date = event && event.date ? event.date : "date";
   let location =
     event && event.location ? event.location : "Navrachna University";
-  let btnText = event && event.btnText ? event.btnText : "";
+  let btnText = event && event.btnText ? event.btnText : null;
   let btnLink = event && event.form_link ? event.form_link : "#";
   let imageUrl =
     event && event.image_url ? event.image_url : "assets/images/events/e1.png";
-  
+
+if(btnText != null) {
   return `
-<div class="events-slider-item">
-  <div class="card">
-    <img
-      src="${imageUrl}"
-      class="card-img-top"
-    />
-    <div class="card-body text-center">
-      <h3 class="card-title">${title}</h3>
-      <p class="card-text">${description}</p>
-      <hr />
-      <ul class="event-info list-inline">
-        <li class="list-inline-item">
-          <i class="far fa-calendar-alt"></i>${date}
-        </li>
-        <li class="list-inline-item">
-          <i class="fas fa-map-marker-alt"></i>${location}
-        </li>
-      </ul>
-      <a href="${btnLink}" class="btn btn-primary">${btnText}</a>
+  <div class="events-slider-item">
+    <div class="card">
+      <img
+        src="${imageUrl}"
+        class="card-img-top"
+      />
+      <div class="card-body text-center">
+        <h3 class="card-title">${title}</h3>
+        <p class="card-text">${description}</p>
+        <hr />
+        <ul class="event-info list-inline">
+          <li class="list-inline-item">
+            <i class="far fa-calendar-alt"></i>${date}
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-map-marker-alt"></i>${location}
+          </li>
+        </ul>
+          <a href="${btnLink}" class="btn btn-primary" id="eventBtn" target="_blank">${btnText}</a>
+      </div>
     </div>
   </div>
-</div>
-`;
+  `;
 }
+else {
+  return `
+  <div class="events-slider-item">
+    <div class="card">
+      <img
+        src="${imageUrl}"
+        class="card-img-top"
+      />
+      <div class="card-body text-center">
+        <h3 class="card-title">${title}</h3>
+        <p class="card-text">${description}</p>
+        <hr />
+        <ul class="event-info list-inline">
+          <li class="list-inline-item">
+            <i class="far fa-calendar-alt"></i>${date}
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-map-marker-alt"></i>${location}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  `;
+}
+}
+
+
 /* -------------------------------------------------------------
           SHOWCASE RENDERING
 ------------------------------------------------------------- */
@@ -92,7 +121,7 @@ function buildAchievement(achievement) {
     <div class="image">
       <img
         src="${image}"
-        class="img-rounded img-fluid"
+        class="img-rounded img-fluid hall-of-fame-image"
       />
       <div class="overlay-content">
         <h3>${title}</h3>

@@ -1,32 +1,26 @@
 [
   {
-    "image": "assets/images/achievements/achievement1.jpg",
-    "title": "Won 'Hack the web' competetion",
-    "name": "Pruthvi Patel 1",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,"
+    "image": "assets/images/achievements/a_pruthvi.jpg",
+    "title": "Won 'Hack the web' competition",
+    "name": "Pruthvi Patel",
+    "description": "Pruthvi Patel and Harshil Walia won the 'Hack the Web' DSC NUV website design competition organized by DSC Navrachana University and powered by Google and Microsoft Student Partner Program. Pruthvi & Hardik's bagged the first position out of 10 other teams, and got certificates from Microsoft and also got their website for DSC NUV be the official website for the club."
   },
   {
-    "image": "assets/images/achievements/achievement1.jpg",
-    "title": "Won 'Hack the web' competetion",
-    "name": "Pruthvi Patel 2",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,"
+    "image": "assets/images/achievements/a_harshil.jpg",
+    "title": "Won 'Hack the web' competition",
+    "name": "Harshil Walia",
+    "description": "Harshil Walia and Pruthvi Patel won the 'Hack the Web' DSC NUV website design competition organized by DSC Navrachana University and powered by Google and Microsoft Student Partner Program. Pruthvi & Hardik's bagged the first position out of 10 other teams, and got certificates from Microsoft and also got their website for DSC NUV be the official website for the club."
   },
   {
-    "image": "assets/images/achievements/achievement1.jpg",
-    "title": "Won 'Hack the web' competetion",
-    "name": "Pruthvi Patel 3",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,"
+    "image": "assets/images/achievements/a_gcp.jpg",
+    "title": "Conducted the GCP Crash Course",
+    "name": "Perin Shah, Dhvanan Kotecha, & more",
+    "description": "Successfully conducted a Google Cloud Platform Crash Course, with more than 80 students participating. Students that completed their study track, also got hoodies and schwags form Google."
   },
   {
-    "image": "assets/images/achievements/achievement1.jpg",
-    "title": "Won 'Hack the web' competetion",
-    "name": "Pruthvi Patel 4",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,"
-  },
-  {
-    "image": "assets/images/achievements/achievement1.jpg",
-    "title": "Won 'Hack the web' competetion",
-    "name": "Pruthvi Patel 5",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,"
+    "image": "assets/images/achievements/a_flutterio.jpg",
+    "title": "Flutter IO Extended Contest Winners",
+    "name": "Samarth & 2 More",
+    "description": "Won the contest at the Flutter IO Extended event, and got schwags from Flutter."
   }
 ]

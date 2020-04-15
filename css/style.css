@@ -395,6 +395,12 @@ section {
   -o-border-radius: 10px;
 }
 
+.hall-of-fame-image {
+object-fit: cover;
+width: 100%;
+height: 350px;
+}
+
 .hall-of-fame-slider .image:hover {
   cursor: pointer;
 }
@@ -419,7 +425,7 @@ section {
 }
 
 .hall-of-fame-slider .overlay-content h3 {
-  text-decoration: underline;
+  color: var(--color-red);
   margin-bottom: 10px;
 }
 
