@@ -514,3 +514,12 @@ footer span {
 footer span:hover {
   color: #fff;
 }
+
+.darkmode-toggle{
+  z-index : 500;
+}
+
+
+.darkmode--activated h1{
+  color: blue;
+}
