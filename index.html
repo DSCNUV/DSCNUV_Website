@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,7 +27,7 @@
     <script src="js/ui.js"></script>
     <script src="js/main.js"></script>
   </head>
-  <body>
+  <body data-theme='light'>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div style="max-width: 300px;">
@@ -67,8 +67,7 @@
               <a
                 class="ml-lg-3 btn btn-outline-primary d-none d-lg-block"
                 href="tel:+91-9409279077"
-                >Contact us</a
-              >
+                >Contact us</a>
             </li>
           </ul>
         </div>
@@ -108,7 +107,7 @@
               </div>
               <div class="col-lg-2 align-self-center order-lg-11">
                 <div class="container">
-                  <h3 class="text-light">EVENTS / COMPETETIONS</h3>
+                  <h3 class="text-light">EVENTS / COMPETITIONS</h3>
                   <img
                     src="assets/images/extra/wave_white.png"
                     style="max-width: 120px;"
@@ -399,5 +398,24 @@
         >
       </p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script>
+      var options = {
+          bottom: '64px', // default: '32px'
+          right: '32px', // default: '32px'
+          left: 'unset', // default: 'unset'
+          time: '0.5s', // default: '0.3s'
+          mixColor: '#fff', // default: '#fff'
+          backgroundColor: '#fff',  // default: '#fff'
+          buttonColorDark: '#100f2c',  // default: '#100f2c'
+          buttonColorLight: '#fff', // default: '#fff'
+          saveInCookies: true, // default: true,
+          label: '🌓', // default: ''
+          autoMatchOsTheme:  true// default: true
+}
+          const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+    </script>
   </body>
 </html>
