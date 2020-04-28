@@ -2,6 +2,7 @@ $(document).ready(() => {
   /* -----------------------------------------------------
                     Events slider
 ----------------------------------------------------- */
+
   var $events_slider = $(".events-slider");
   $events_slider.slick({
     slidesToShow: 3,

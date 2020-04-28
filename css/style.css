@@ -15,7 +15,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: white;
 }
+
 
 /* RBOOT */
 
@@ -95,6 +97,7 @@ section {
 .events-slider-bg {
   position: relative;
 }
+
 .events-slider-bg:after {
   content: "";
   position: absolute;
@@ -158,7 +161,7 @@ section {
 .tp-slider-extra .first {
   font-size: 50px;
   font-weight: 600;
-  color: #ffffff;
+  color:white;
   height: 65px;
   width: 65px;
   display: inline-block;
@@ -174,7 +177,7 @@ section {
 .tp-slider-extra .last {
   font-size: 24px;
   font-weight: 500;
-  color: #ffffff59;
+  color: white;
 }
 
 .tps-arrow-left-right .slick-prev {
@@ -515,11 +518,127 @@ footer span:hover {
   color: #fff;
 }
 
-.darkmode-toggle{
-  z-index : 500;
+.darkmode--activated p, .darkmode--activated h5 {
+  color: white;
 }
 
+.vision .card .card-text {
+  isolation: isolate;
+  color: black;
+}
 
-.darkmode--activated h1{
-  color: blue;
+.darkmode--activated .section-header p {
+  isolation: isolate;
+  color: white;
+}
+
+.darkmode--activated h1 {
+  isolation: isolate;
+  color: yellow;
+}
+
+.darkmode--activated footer p {
+  isolation: isolate;
+  color: white;
+}
+
+.darkmode--activated .team .card-body p {
+  isolation: isolate;
+  color: black;
+}
+
+.darkmode--activated .team .card-body .card-title {
+  isolation: isolate;
+  color: var(--color-blue);
+}
+
+.darkmode--activated .team .card-body .card-text {
+  isolation: isolate;
+  color: var(--color-red);
+}
+
+.darkmode--activated .logo h3 {
+  isolation: isolate;
+  color: white;
+}
+
+.events-slider-bg {
+  position: relative;
+  isolation: isolate;
+}
+
+.events-slider-bg:after {
+  isolation: isolate;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 35%;
+  height: 100%;
+  background: var(--color-blue);
+  z-index: -1;
+}
+
+.darkmode--activated .events-slider-bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 35%;
+  height: 100%;
+  background-color:var(--color-yellow);
+  z-index: -1;
+}
+
+.about .image {
+  position: relative;
+  isolation: isolate;
+}
+.about .image .thumb {
+  isolation: isolate;
+  position: relative;
+  display: block;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-image: url("../assets/images/about/about-bg.svg");
+  -webkit-mask-image: url("../assets/images/about/about-bg.svg");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-transform: rotate(1.8deg);
+  -ms-transform: rotate(1.8deg);
+  transform: rotate(1.8deg);
+}
+.about .image .thumb img {
+  isolation: isolate;
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+.about .image:after {
+  isolation: isolate;
+  content: "";
+  background-image: url("../assets/images/about/about-bg.svg");
+  position: absolute;
+  width: 90%;
+  background-size: cover;
+  height: 94%;
+  left: 5%;
+  background-position: 100% 100%;
+  z-index: -1;
+  top: 3%;
+  -webkit-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  border-radius: 10px;
+}
+
+.darkmode--activated .events .card .card-text {
+  color: white;
+  font-size: 14px;
+}
+
+.darkmode-toggle {
+  z-index: 500;
 }
