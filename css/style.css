@@ -241,6 +241,7 @@ section {
 }
 .events .card .card-text {
   font-size: 14px;
+  color:black;
 }
 
 .events .card .event-info i {
@@ -632,10 +633,6 @@ footer span:hover {
   -ms-transform: rotate(-10deg);
   transform: rotate(-10deg);
   border-radius: 10px;
-}
-
-.events .card .card-text {
-  isolation: isolate;
 }
 
 .darkmode-toggle {
